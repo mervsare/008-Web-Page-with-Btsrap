@@ -43,8 +43,14 @@
 }
 
 /*! ------------ 3- ABOUT SECTION ----------- */
+.text-center h2 {
+  text-transform: uppercase;
+}
 
 /*! ------------- 4- INSTRUCTORS -------------*/
+#instructors .card {
+  max-width: 12rem !important;
+}
 
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
