@@ -31,8 +31,17 @@
   width: 7rem;
 }
 .carousel-caption {
-  bottom: 5rem;
+  bottom: 6rem;
 }
+.carousel-indicators {
+  gap: 0.7rem;
+}
+.carousel-indicators button {
+  background-color: var(--red) !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+}
+
 /*! ------------ 3- ABOUT SECTION ----------- */
 
 /*! ------------- 4- INSTRUCTORS -------------*/
