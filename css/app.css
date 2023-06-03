@@ -1,5 +1,5 @@
 :root {
-    --red : #dc3545;
+  --red: #dc3545;
 }
 /*! -------------- 1- NAVBAR ---------------- */
 .navbar .navbar-nav {
@@ -8,16 +8,31 @@
   font-weight: 600;
 }
 .navbar .nav-link {
-    transition: color 0.7s;
+  transition: color 0.7s;
 }
 .navbar .nav-link:hover {
-    color: var(--red);
-}
-
+  color: var(--red);
 }
 
 /*! ------------- 2- CAROUSEL --------------- */
-
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+.carousel-caption h5 {
+  color: var(--red);
+  font-size: 2.4rem;
+  text-shadow: 3px 3px 3px black;
+}
+.carousel-caption p {
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+.carousel-caption .btn {
+  width: 7rem;
+}
+.carousel-caption {
+  bottom: 5rem;
+}
 /*! ------------ 3- ABOUT SECTION ----------- */
 
 /*! ------------- 4- INSTRUCTORS -------------*/
